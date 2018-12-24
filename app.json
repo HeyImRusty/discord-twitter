@@ -1,0 +1,51 @@
+{
+  "name": "discord-twitter",
+  "scripts": {
+  },
+  "env": {
+    "ACCESS_TOKEN": {
+      "required": true
+    },
+    "ACCESS_TOKEN_SECRET": {
+      "required": true
+    },
+    "CONSUMER_KEY": {
+      "required": true
+    },
+    "CONSUMER_SECRET": {
+      "required": true
+    },
+    "CUSTOM_MESSAGE": {
+      "required": true
+    },
+    "INCLUDE_REPLY_TO_USER": {
+      "required": true
+    },
+    "INCLUDE_RETWEET": {
+      "required": true
+    },
+    "INCLUDE_USER_REPLY": {
+      "required": true
+    },
+    "TWITTER_ID": {
+      "required": true
+    },
+    "WEBHOOK_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+    "bot": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "stack": "heroku-18",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
